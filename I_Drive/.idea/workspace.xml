@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8358962a-9d6e-46e2-8742-9fd7ca0d4ffb" name="Changes" comment="Livrables" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="NbQuestionsDifficulte" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;MERGED&quot;,
+      &quot;assignee&quot;: &quot;SytexLouqui&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;MERGED&quot;,
+    &quot;assignee&quot;: &quot;SytexLouqui&quot;
+  }
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOM70UOM5_kP5Q&quot;,
+        &quot;number&quot;: 11
+      },
+      &quot;lastSeen&quot;: 1729669371000
+    }
+  ]
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RomainRodrigues/JEEProject.git&quot;,
+    &quot;accountId&quot;: &quot;54ecc409-2826-42c4-a22b-22414d47b92e&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;RomainRodrigues&quot;,
+    &quot;repository&quot;: &quot;JEEProject&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2n9fpKsbF7aGUTaTcwOxuVCTE3t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BackApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.back [clean,compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.back [idea:idea].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.back [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.back [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BackApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sytex/OneDrive/Documents/ENSSAT/S4/Système_Répartie/I_Drive&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;C:\\Users\\sytex\\OneDrive\\Documents\\ENSSAT\\S3\\JEE\\Projet\\JEEProject\\front\\node_modules\\stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\sytex\\AppData\\Local\\Programs\\IntelliJ IDEA Ultimate\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;postgresql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Markdown&quot;
+    ]
+  }
+}</component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sytex\OneDrive\Documents\ENSSAT\S3\JEE\Projet\JEEProject\Livrables" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sytex\OneDrive\Documents\ENSSAT\S3\JEE\Projet\JEEProject" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="back.quiz.webapp.dto" />
+      <recent name="back.quiz.webapp.controller" />
+      <recent name="back.quiz.webapp.model" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean compile" />
+      <command value="mvn idea:idea" />
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BackApplication">
+    <configuration name="BackApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="back.quiz.webapp.BackApplication" />
+      <module name="back" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="back.quiz.webapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="back" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="back.quiz.webapp.BackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BackApplication" />
+        <item itemvalue="Application.BackApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8358962a-9d6e-46e2-8742-9fd7ca0d4ffb" name="Changes" comment="" />
+      <created>1728390393935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728390393935</updated>
+      <workItem from="1728390395226" duration="4925000" />
+      <workItem from="1728484577773" duration="3209000" />
+      <workItem from="1728549906839" duration="857000" />
+      <workItem from="1728654586206" duration="2672000" />
+      <workItem from="1728664709723" duration="246000" />
+      <workItem from="1729009678137" duration="3362000" />
+      <workItem from="1729062983138" duration="16879000" />
+      <workItem from="1729543716623" duration="1848000" />
+      <workItem from="1729668181712" duration="4123000" />
+      <workItem from="1730922196510" duration="2757000" />
+      <workItem from="1731511669967" duration="6731000" />
+      <workItem from="1732039823836" duration="486000" />
+      <workItem from="1732099036654" duration="17033000" />
+      <workItem from="1732176730634" duration="3353000" />
+      <workItem from="1732180497958" duration="16483000" />
+      <workItem from="1732227852340" duration="2271000" />
+      <workItem from="1732230148335" duration="442000" />
+      <workItem from="1732230606064" duration="9726000" />
+      <workItem from="1741007938396" duration="636000" />
+      <workItem from="1742999463121" duration="60000" />
+      <workItem from="1743428458246" duration="1232000" />
+      <workItem from="1743488817890" duration="2964000" />
+      <workItem from="1743493352283" duration="235000" />
+      <workItem from="1743519034548" duration="64000" />
+      <workItem from="1743519109913" duration="91000" />
+      <workItem from="1743519218858" duration="27000" />
+    </task>
+    <task id="LOCAL-00001" summary="Installation du back">
+      <option name="closed" value="true" />
+      <created>1728391914618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728391914618</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Notice travail en local">
+      <option name="closed" value="true" />
+      <created>1728664927186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728664927186</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Test de commit sur branche">
+      <option name="closed" value="true" />
+      <created>1729011810824</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729011810824</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test de commit sur branche">
+      <option name="closed" value="true" />
+      <created>1729011917943</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729011917943</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Affichage des questions">
+      <option name="closed" value="true" />
+      <created>1729159745999</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729159745999</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Affichage des questions">
+      <option name="closed" value="true" />
+      <created>1729669496194</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729669496194</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Back et front question">
+      <option name="closed" value="true" />
+      <created>1732039967582</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732039967582</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update pour romain mon bébou">
+      <option name="closed" value="true" />
+      <created>1732115558891</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732115558891</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update pour romain mon bébou">
+      <option name="closed" value="true" />
+      <created>1732117507359</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732117507359</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update pour romain mon bébou">
+      <option name="closed" value="true" />
+      <created>1732120840500</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732120840500</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Create question avec answer et add_win pour une équipe">
+      <option name="closed" value="true" />
+      <created>1732193927248</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732193927248</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update question qui supprime également les réponses modifiés">
+      <option name="closed" value="true" />
+      <created>1732194194947</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732194194947</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Nombre de question par difficulté">
+      <option name="closed" value="true" />
+      <created>1732198523765</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732198523765</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Code pour la win d'une équipe">
+      <option name="closed" value="true" />
+      <created>1732232390832</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732232390832</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Top10Teams">
+      <option name="closed" value="true" />
+      <created>1732236466045</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732236466045</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Livrables">
+      <option name="closed" value="true" />
+      <created>1732238015651</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732238015651</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Livrables">
+      <option name="closed" value="true" />
+      <created>1732238196790</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732238196790</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Installation du back" />
+    <MESSAGE value="Notice travail en local" />
+    <MESSAGE value="Test de commit sur branche" />
+    <MESSAGE value="Affichage des questions" />
+    <MESSAGE value="Back et front question" />
+    <MESSAGE value="Update pour romain mon bébou" />
+    <MESSAGE value="add_win pour une équipe" />
+    <MESSAGE value="Create question avec answer et add_win pour une équipe" />
+    <MESSAGE value="Update question qui supprime également les réponses modifiés" />
+    <MESSAGE value="Nombre de question par difficulté" />
+    <MESSAGE value="Code pour la win d'une équipe" />
+    <MESSAGE value="Top10Teams" />
+    <MESSAGE value="Livrables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Livrables" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
