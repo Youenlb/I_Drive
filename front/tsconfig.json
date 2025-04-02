@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "moduleResolution": "node16",
+    "module": "node16",
+    "target": "ESNext",
+    "strict": true,
+    "skipLibCheck": true,
+    "types": ["node", "nuxt"], 
+    "allowSyntheticDefaultImports": true
+  }
+}
