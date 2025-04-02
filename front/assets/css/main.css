@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+/* TODO : isolate bg-gray hover and normal (on tailwind config ? or in a class here)
 /* Custom css classes */
 
 @font-face {
@@ -21,6 +22,10 @@
 .color-secondary
 {
   color: var(--secondary);
+}
+.color-white
+{
+  color: var(--white);
 }
 .bg-primary
 {

@@ -1,16 +1,13 @@
 <script setup lang="ts">
-// TODO : Gérer le message d'erreur quand l'adresse mail est déjà utilisée
 // TODO : TS à mettre pour certains truc 
 import * as v from 'valibot'
-import { Ref, ref, reactive } from 'vue'
+import { ref, reactive } from 'vue'
 import Title from "@/components/Title.vue"
 import { UserService } from "@/services/UserService"
 import type { FormSubmitEvent, FormError } from '@nuxt/ui'
-const emailErrorMessage = ref('')
-const emailOfTheLastError = ref()
+import { navigateTo } from 'nuxt/app'
 const connectForm = ref()
 let errors: FormError[] = []
-// TODO : Ajouter le user
 const stateForm = reactive({
   email: '',
   password: '',
@@ -27,7 +24,7 @@ const loginUser = async (event: FormSubmitEvent<any>) => {
   if (res.success && 'id' in res && 'username' in res) {
     //login({ id: res.id, username: res.username })
     //addNotification('Connexion réussie', 'success')
-    //navigateTo('/home')
+    navigateTo('/home')
   }
   else if('type' in res && 'message' in res)
   {
@@ -51,7 +48,7 @@ const validForm = (stateForm: any) : FormError[] => {
 </script>
 <template>
   <div class="flex flex-1 justify-center items-center h-full">
-    <UForm ref="connectForm" :schema="RegistrationSchema" :state="stateForm" :validate="validForm" @submit="loginUser" class="bg-white rounded-lg p-4 w-9/12">
+    <UForm ref="connectForm" :schema="RegistrationSchema" :state="stateForm" :validate="validForm" @submit="loginUser" class="flex flex-col justify-center h-90 bg-slate-900 rounded-lg p-4 max-w-7xl">
         <Title content="Connexion"/>
         <!-- Champ email -->
         <UFormField name="email" class="mt-6" required>
@@ -76,14 +73,16 @@ const validForm = (stateForm: any) : FormError[] => {
         <!-- Lien vers la connexion -->
         <p class="text-center mt-4">
             Vous ne possèdez pas de compte ?
-            <NuxtLink to="/inscription" color='primary' class="color-primary hover:underline">
+            <NuxtLink to="/registration" color='primary' class="color-primary hover:underline">
             S'inscrire
             </NuxtLink>
         </p>
-        <!-- Bouton S'inscrire -->
-        <UButton icon="mdi-account" type="submit">
+        <div class="w-full flex justify-end">
+          <!-- Bouton Se connecter -->
+          <UButton icon="mdi-account" type="submit" class="mt-4">
             Se connecter
-        </UButton>
+          </UButton>
+        </div>
     </UForm>
   </div>
 </template>
