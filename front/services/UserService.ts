@@ -1,6 +1,8 @@
+import { $fetch } from 'ofetch'
 export interface User {
     id: number,
     email: string,
+    username: string,
     password: string,
     isAdmin: boolean,
     isSuspended: boolean
@@ -9,7 +11,7 @@ export interface User {
 export class UserService {
   static async getUsers () {
     try {
-      const res = await $fetch<User[]>('/api/user/getAll')
+      const res = await $fetch<User[]>('http://localhost:8080/api/user/getAll')
       return res
     } catch (e) {
       console.error(e)
@@ -19,7 +21,7 @@ export class UserService {
 
   static async getUser (id:number) {
     try {
-      const res = await $fetch<User>(`/api/user/get/${id}`)
+      const res = await $fetch<User>(`http://localhost:8080/api/user/get/${id}`)
       return res
     } catch (e) {
       console.error(e)
@@ -30,7 +32,7 @@ export class UserService {
   static async createUser (email:string, password:string) {
     try {
       // making an API request to create a user
-      const response = await $fetch<User>('/api/user/create', {
+      const response = await $fetch<User>('http://localhost:8080/api/user/create', {
         method: 'POST',
         body: { email, password }
       })
@@ -44,7 +46,7 @@ export class UserService {
   static async loginUser (email:string, password:string) {
     try {
       // making an API request to login a user
-      const response = await $fetch<User>('/api/user/login', {
+      const response = await $fetch<User>('http://localhost:8080/api/user/login', {
         method: 'POST',
         body: { email, password }
       })
@@ -62,7 +64,7 @@ export class UserService {
   static async updateUser (id:number, email:string, password:string, isAdmin:boolean, isSuspended:boolean) {
     try {
       // making an API request to login a user
-      const response = await $fetch<User>(`/api/user/update/${id}`, {
+      const response = await $fetch<User>(`http://localhost:8080/api/user/update/${id}`, {
         method: 'PUT',
         body: { email, password, isAdmin, isSuspended }
       })
@@ -80,7 +82,7 @@ export class UserService {
   static async deleteUser (id:number) {
     try {
       // making an API request to login a user
-      const response = await $fetch<User>(`/api/user/delete/${id}`, {
+      const response = await $fetch<User>(`http://localhost:8080/api/user/delete/${id}`, {
         method: 'DELETE'
       })
       return { ...response, success: true }

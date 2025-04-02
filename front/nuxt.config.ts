@@ -14,9 +14,10 @@ export default defineNuxtConfig({
       tailwindcss(),
     ]
   },
+  /*
   ui:{
     colorMode:false,
-  },
+  },*/
   app: {
     head: {
       title: "IDrive",

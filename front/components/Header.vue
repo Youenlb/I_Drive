@@ -1,7 +1,7 @@
 <template>
   <header class="bg-secondary text-white flex items-center justify-between p-4">
       <font-awesome-icon :icon="['fab', 'google-drive']" size="2xl" class="color-primary" />
-      <UNavigationMenu content-orientation="vertical" :items="items" />
+      <UNavigationMenu color="secondary" content-orientation="vertical" :items="items" />
   </header>
 </template>
 
@@ -25,7 +25,7 @@ const items = ref<NavigationMenuItem[]>([
       {
         label: 'S\'inscrire',
         icon: 'pajamas:assignee',
-        to:'/inscription'
+        to:'/registration'
       }
     ]
   },
