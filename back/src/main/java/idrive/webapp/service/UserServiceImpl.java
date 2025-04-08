@@ -47,7 +47,6 @@ public class UserServiceImpl implements UserService {
                     user1.setUsername(user.getUsername());
                     user1.setPassword(user.getPassword());
                     user1.setIsAdmin(user.getIsAdmin());
-                    user1.setIsSuspended(user.getIsSuspended());
                     return userRepository.save(user1);
                 })
                 .orElseThrow(() -> new RuntimeException("User not found with id " + id));
@@ -64,10 +63,6 @@ public class UserServiceImpl implements UserService {
         User user = userRepository.findByUsername(username);
         if (user == null) {
             throw new UserDontExistException("Cette utilisateur n'existe pas");
-        }
-        if(user.getIsSuspended())
-        {
-            throw new UserSuspendedException("Ce compte est suspendu");
         }
         if (!user.getPassword().equals(password)) {
             throw new InvalidPasswordException("Mot de passe incorrect");
