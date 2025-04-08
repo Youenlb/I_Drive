@@ -55,7 +55,7 @@ const isButtonActive = computed(() =>
 const createUser = async () => {
   // POST fetch to create new
   // loader()
-  const response = await UserService.createUser(stateForm.email, stateForm.password)
+  const response = await UserService.createUser(stateForm.email, stateForm.username,stateForm.password)
   // hideLoader()
   if (response.success) {
     // Redirect to login page

@@ -4,8 +4,6 @@ export interface User {
     email: string,
     username: string,
     password: string,
-    isAdmin: boolean,
-    isSuspended: boolean
 }
 
 export class UserService {
@@ -29,12 +27,12 @@ export class UserService {
     }
   }
 
-  static async createUser (email:string, password:string) {
+  static async createUser (email:string,username:string, password:string) {
     try {
       // making an API request to create a user
       const response = await $fetch<User>('http://localhost:8080/api/user/create', {
         method: 'POST',
-        body: { email, password }
+        body: { email, username, password }
       })
       return { ...response, success: true }
     } catch (error:unknown) {
