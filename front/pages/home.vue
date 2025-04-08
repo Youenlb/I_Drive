@@ -22,10 +22,29 @@ const files:ItemInfo[] = [
   { name: "code5", icon: "i-heroicons-folder"},
   { name: "code6", icon: "i-heroicons-folder"},
 ]
+
+const optionsForDropDownActionMenu = ref<DropdownMenuItem[]>(
+[
+  { label: 'Nouveau dossier', icon: 'material-symbols:create-new-folder-outline' },
+  { label: 'Importer un dossier', icon: 'material-symbols:drive-folder-upload-outline-rounded' },
+  { label: 'Importer un fichier', icon: 'material-symbols:file-save-outline-sharp' }
+])
+
+const optionsForDropDownMenuOfListItem = ref<DropdownMenuItem[]>([
+  {
+    label: 'Télécharger',
+    icon: 'material-symbols:download'
+  },
+  {
+    label: 'Supprimer',
+    icon: 'codex:cross'
+  }
+])
 </script>
 <template>
   <div> 
-    <ListItems title="Mes dossiers" :datas="folders"/>
-    <ListItems title="Mes fichiers" :datas="files"/>
+    <DropDownButton icon="codex:plus" label="Nouveau" :items="optionsForDropDownActionMenu" />
+    <ListItems title="Mes dossiers" :datas="folders" :options="optionsForDropDownMenuOfListItem"/>
+    <ListItems title="Mes fichiers" :datas="files" :options="optionsForDropDownMenuOfListItem"/>
   </div>
 </template>

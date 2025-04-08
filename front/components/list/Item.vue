@@ -1,14 +1,10 @@
 <script setup lang="ts">
 import type { ItemInfo } from "@/services/FileService"
+import type { DropdownMenuItem } from '@nuxt/ui'
 defineProps<{
   data: ItemInfo
+  options: DropdownMenuItem[]
 }>();
-const items = ref<DropdownMenuItem[]>([
-  {
-    label: 'Supprimer',
-    icon: 'codex:cross'
-  },
-])
 </script>
 
 <template>
@@ -18,9 +14,8 @@ const items = ref<DropdownMenuItem[]>([
         <UIcon :name="data.icon" class="w-6 h-6" />
         <span class="font-medium">{{ data.name }}</span>
       </div>
-      <UDropdownMenu arrow :items="items" :ui="{ content: 'w-48'}">
-        <UButton icon="codex:etc-vertical" color="neutral" variant="outline" />
-      </UDropdownMenu>
+      <!-- TODO : Ajouter v-if si options passé-->
+      <DropDownButton icon="codex:etc-vertical" :options="options" />
     </div>
   </UCard>
 </template>
