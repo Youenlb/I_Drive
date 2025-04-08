@@ -31,12 +31,4 @@ public class User {
     @Convert(converter = BooleanConverter.class)
     @Column(name = "is_admin")
     private Boolean isAdmin;
-
-    @Convert(converter = BooleanConverter.class)
-    @Column(name = "is_suspended")
-    private Boolean isSuspended;
-
-    @OneToMany(mappedBy = "idUser", fetch = FetchType.LAZY)
-    @JsonBackReference
-    private List<PlayedGameSolo> playedGameSolos;
 }
