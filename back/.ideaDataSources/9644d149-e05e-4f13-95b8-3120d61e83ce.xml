@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1">
       <DateStyle>dmy</DateStyle>
-      <IntrospectionStateNumber>3049</IntrospectionStateNumber>
+      <IntrospectionStateNumber>3073</IntrospectionStateNumber>
       <ServerVersion>14.2</ServerVersion>
       <StartupTime>1741943842</StartupTime>
       <TimeZones>true ACDT
@@ -805,7 +805,7 @@ false Zulu
 13388||10|C|G
 13388||-9223372036854775808|U|G
 13388||10|U|G</Grants>
-      <IntrospectionStateNumber>3049</IntrospectionStateNumber>
+      <IntrospectionStateNumber>3073</IntrospectionStateNumber>
       <ObjectId>13754</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4244,88 +4244,202 @@ false Zulu
     <schema id="263" parent="3" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>3049</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2025-04-08.09:58:06</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>3073</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2025-04-08.13:02:16</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>527</StateNumber>
       <OwnerName>postgres</OwnerName>
     </schema>
     <sequence id="264" parent="263" name="users_iduser_seq">
-      <ObjectId>33133</ObjectId>
+      <ObjectId>33176</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>3043</StateNumber>
+      <StateNumber>3063</StateNumber>
       <StoredType>integer|0s</StoredType>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <table id="265" parent="263" name="users">
-      <ObjectId>33134</ObjectId>
-      <StateNumber>3043</StateNumber>
+    <table id="265" parent="263" name="files">
+      <ObjectId>33185</ObjectId>
+      <StateNumber>3069</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <column id="266" parent="265" name="iduser">
-      <DefaultExpression>nextval(&apos;users_iduser_seq&apos;::regclass)</DefaultExpression>
+    <table id="266" parent="263" name="folder">
+      <ObjectId>33195</ObjectId>
+      <StateNumber>3070</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="267" parent="263" name="users">
+      <ObjectId>33177</ObjectId>
+      <StateNumber>3069</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <column id="268" parent="265" name="idfile">
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>3043</StateNumber>
+      <StateNumber>3069</StateNumber>
       <StoredType>integer|0s</StoredType>
-      <SequenceId>33133</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="267" parent="265" name="username">
-      <NotNull>1</NotNull>
+    <column id="269" parent="265" name="name">
       <Position>2</Position>
-      <StateNumber>3043</StateNumber>
-      <StoredType>varchar(100)|0s</StoredType>
+      <StateNumber>3069</StateNumber>
+      <StoredType>varchar(50)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="268" parent="265" name="email">
-      <NotNull>1</NotNull>
+    <column id="270" parent="265" name="extension">
       <Position>3</Position>
-      <StateNumber>3043</StateNumber>
-      <StoredType>varchar(100)|0s</StoredType>
+      <StateNumber>3069</StateNumber>
+      <StoredType>varchar(50)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="269" parent="265" name="password">
-      <NotNull>1</NotNull>
+    <column id="271" parent="265" name="uploaddate">
       <Position>4</Position>
-      <StateNumber>3043</StateNumber>
-      <StoredType>varchar(255)|0s</StoredType>
+      <StateNumber>3069</StateNumber>
+      <StoredType>varchar(50)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <index id="270" parent="265" name="users_pkey">
+    <column id="272" parent="265" name="iduser">
+      <Position>5</Position>
+      <StateNumber>3069</StateNumber>
+      <StoredType>integer|0s</StoredType>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="273" parent="265" name="files_iduser_fkey">
       <ColNames>iduser</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>33138</ObjectId>
+      <ObjectId>33190</ObjectId>
+      <StateNumber>3069</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>33177</RefTableId>
+    </foreign-key>
+    <index id="274" parent="265" name="files_pkey">
+      <ColNames>idfile</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>33188</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3043</StateNumber>
+      <StateNumber>3069</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="271" parent="265" name="users_email_key">
+    <key id="275" parent="265" name="files_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>33189</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3069</StateNumber>
+      <UnderlyingIndexId>33188</UnderlyingIndexId>
+    </key>
+    <column id="276" parent="266" name="iddossier">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>3070</StateNumber>
+      <StoredType>integer|0s</StoredType>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="277" parent="266" name="idfile">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>3070</StateNumber>
+      <StoredType>integer|0s</StoredType>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="278" parent="266" name="folder_iddossier_fkey">
+      <ColNames>iddossier</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>33200</ObjectId>
+      <StateNumber>3070</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>33185</RefTableId>
+    </foreign-key>
+    <foreign-key id="279" parent="266" name="folder_idfile_fkey">
+      <ColNames>idfile</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>33205</ObjectId>
+      <StateNumber>3070</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>33185</RefTableId>
+    </foreign-key>
+    <index id="280" parent="266" name="folder_pkey">
+      <ColNames>iddossier
+idfile</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>33198</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3070</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="281" parent="266" name="folder_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>33199</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3070</StateNumber>
+      <UnderlyingIndexId>33198</UnderlyingIndexId>
+    </key>
+    <column id="282" parent="267" name="iduser">
+      <DefaultExpression>nextval(&apos;users_iduser_seq&apos;::regclass)</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>3063</StateNumber>
+      <StoredType>integer|0s</StoredType>
+      <SequenceId>33176</SequenceId>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="283" parent="267" name="username">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>3063</StateNumber>
+      <StoredType>varchar(100)|0s</StoredType>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="284" parent="267" name="email">
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>3063</StateNumber>
+      <StoredType>varchar(100)|0s</StoredType>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="285" parent="267" name="password">
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>3063</StateNumber>
+      <StoredType>varchar(255)|0s</StoredType>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="286" parent="267" name="users_pkey">
+      <ColNames>iduser</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>33181</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>3063</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="287" parent="267" name="users_email_key">
       <ColNames>email</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>33140</ObjectId>
-      <StateNumber>3043</StateNumber>
+      <ObjectId>33183</ObjectId>
+      <StateNumber>3063</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default</CollationNames>
       <CollationIds>100</CollationIds>
       <CollationParentNames>pg_catalog</CollationParentNames>
     </index>
-    <key id="272" parent="265" name="users_pkey">
+    <key id="288" parent="267" name="users_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>33139</ObjectId>
+      <ObjectId>33182</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3043</StateNumber>
-      <UnderlyingIndexId>33138</UnderlyingIndexId>
+      <StateNumber>3063</StateNumber>
+      <UnderlyingIndexId>33181</UnderlyingIndexId>
     </key>
-    <key id="273" parent="265" name="users_email_key">
+    <key id="289" parent="267" name="users_email_key">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>33141</ObjectId>
-      <StateNumber>3043</StateNumber>
-      <UnderlyingIndexId>33140</UnderlyingIndexId>
+      <ObjectId>33184</ObjectId>
+      <StateNumber>3063</StateNumber>
+      <UnderlyingIndexId>33183</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>

@@ -1,4 +1,6 @@
-drop table if exists users, File cascade;
+drop table if exists users cascade;
+drop table if exists files cascade;
+drop table if exists folder cascade;
 
 create table users
 (
@@ -25,7 +27,7 @@ CREATE TABLE files (
     FOREIGN KEY (idUser) REFERENCES Users(idUser)
 );
 
-CREATE TABLE dossier (
+CREATE TABLE folder (
     idDossier           INT,
     idFile              INT,
     FOREIGN KEY (idDossier) REFERENCES Files(idFile)

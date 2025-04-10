@@ -5,81 +5,93 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59c5db94-74a5-4669-a514-1407abbc31d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ideaDataSources/9644d149-e05e-4f13-95b8-3120d61e83ce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.ideaDataSources/9644d149-e05e-4f13-95b8-3120d61e83ce.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/back.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/back.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back.iws" beforeDir="false" afterPath="$PROJECT_DIR$/back.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataSources/9644d149-e05e-4f13-95b8-3120d61e83ce/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/dataSources/9644d149-e05e-4f13-95b8-3120d61e83ce/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dump.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dump.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/controller/AnswerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/controller/PlayedGameSoloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/controller/PlayedGameThemeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/controller/QuestionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/controller/TeamsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/controller/ThemeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/dto/AnswerDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/dto/InfoQADTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/dto/PlayedGameDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/dto/PlayedGameSoloDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/dto/PlayedGameThemeDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/dto/PlayedGamesInfoDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/dto/QuestionDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/dto/ThemeDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/mapper/AnswerMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/mapper/AnswerMapperImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/mapper/PlayedGameSoloMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/mapper/PlayedGameSoloMapperImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/mapper/PlayedGameThemeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/mapper/PlayedGameThemeMapperImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/mapper/ThemeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/mapper/ThemeMapperImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/model/Answer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/model/PlayedGameSolo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/model/PlayedGameTheme.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/model/PlayedGameThemeId.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/model/PlayedGamesInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/model/PlayedGamesInfoId.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/model/Question.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/model/Teams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/model/Theme.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/idrive/webapp/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/repository/AnswerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/repository/PlayedGameInfoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/repository/PlayedGameSoloRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/repository/PlayedGameThemeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/repository/QuestionRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/repository/TeamRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/repository/ThemeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/service/AnswerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/service/AnswerServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/service/PlayedGameSoloService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/service/PlayedGameSoloServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/service/PlayedGameThemeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/service/PlayedGameThemeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/service/QuestionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/service/QuestionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/service/TeamServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/service/TeamsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/service/ThemeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/service/ThemeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/idrive/webapp/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/idrive/webapp/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/idrive/webapp/dto/AnswerDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/idrive/webapp/dto/InfoQADTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/idrive/webapp/dto/PlayedGameDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/idrive/webapp/dto/PlayedGameSoloDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/idrive/webapp/dto/PlayedGameThemeDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/idrive/webapp/dto/PlayedGamesInfoDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/idrive/webapp/dto/QuestionDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/idrive/webapp/dto/ThemeDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/idrive/webapp/model/PlayedGamesInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/idrive/webapp/repository/QuestionRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/idrive/webapp/repository/ThemeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/back/idrive/webapp/BackApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/BackApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/controller/AnswerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/controller/PlayedGameSoloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/controller/PlayedGameThemeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/controller/QuestionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/controller/TeamsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/controller/ThemeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/converter/BooleanConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/dto/AnswerDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/dto/InfoQADTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/dto/PlayedGameDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/dto/PlayedGameSoloDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/dto/PlayedGameThemeDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/dto/PlayedGamesInfoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/dto/QuestionDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/dto/ThemeDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/exception/IdUserNotExistException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/exception/InvalidPasswordException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/exception/NoGamesPlayedForUserException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/exception/UserAlreadyExistsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/exception/UserDontExistException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/exception/UserSuspendedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/mapper/AnswerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/mapper/AnswerMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/mapper/PlayedGameSoloMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/mapper/PlayedGameSoloMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/mapper/PlayedGameThemeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/mapper/PlayedGameThemeMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/mapper/ThemeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/mapper/ThemeMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/model/Answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/model/PlayedGameSolo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/model/PlayedGameTheme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/model/PlayedGameThemeId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/model/PlayedGamesInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/model/PlayedGamesInfoId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/model/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/model/Teams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/model/Theme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/repository/AnswerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/repository/PlayedGameInfoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/repository/PlayedGameSoloRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/repository/PlayedGameThemeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/repository/QuestionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/repository/TeamRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/repository/ThemeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/service/AnswerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/service/AnswerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/service/PlayedGameSoloService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/service/PlayedGameSoloServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/service/PlayedGameThemeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/service/PlayedGameThemeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/service/QuestionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/service/QuestionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/service/TeamServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/service/TeamsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/service/ThemeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/service/ThemeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/classes/back/quiz/webapp/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-core-6.5.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-j-8.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/idrive/webapp/mapper/ThemeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-back.quiz.webapp.BackApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/back.quiz.webapp.BackApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/back/idrive/webapp/BackApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,6 +333,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Maven.back [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -351,6 +364,11 @@
 }</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
@@ -450,7 +468,8 @@
       <workItem from="1744106833617" duration="71000" />
       <workItem from="1744106918455" duration="452000" />
       <workItem from="1744107382105" duration="54000" />
-      <workItem from="1744107448103" duration="2145000" />
+      <workItem from="1744107448103" duration="8048000" />
+      <workItem from="1744275189739" duration="1447000" />
     </task>
     <servers />
   </component>
