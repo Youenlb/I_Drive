@@ -20,11 +20,12 @@ const RegistrationSchema = v.object({
 type Schema = v.InferOutput<typeof RegistrationSchema>
 const loginUser = async (event: FormSubmitEvent<any>) => {
   //showLoader()
+  // TODO : Résoudre erreur retourner par loginUser() (ne sera plus présente après que l'authentification sera mise en place ?)
   const res = await UserService.loginUser(stateForm.email, stateForm.password)
   if (res.success && 'id' in res && 'username' in res) {
     //login({ id: res.id, username: res.username })
     //addNotification('Connexion réussie', 'success')
-    navigateTo('/home')
+    navigateTo('/home/folder/0')
   }
   else if('type' in res && 'message' in res)
   {
