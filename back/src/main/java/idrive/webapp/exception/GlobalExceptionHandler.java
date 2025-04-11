@@ -11,9 +11,9 @@ import java.util.Map;
 public class GlobalExceptionHandler
 {
 
-    @ExceptionHandler(UserAlreadyExistsException.class)
+    @ExceptionHandler(EmailAlreadyUseException.class)
     //Construct user error message
-    public ResponseEntity<Map<String,String>> handleUserAlreadyExistsException(UserAlreadyExistsException ex)
+    public ResponseEntity<Map<String,String>> handleUserAlreadyExistsException(EmailAlreadyUseException ex)
     {
         //Construct body
         Map<String, String> responseBody = new HashMap<>();

@@ -1,7 +1,7 @@
 package idrive.webapp.service;
 
 import idrive.webapp.exception.InvalidPasswordException;
-import idrive.webapp.exception.UserAlreadyExistsException;
+import idrive.webapp.exception.EmailAlreadyUseException;
 import idrive.webapp.exception.UserDontExistException;
 import idrive.webapp.exception.UserSuspendedException;
 import idrive.webapp.repository.UserRepository;
@@ -17,13 +17,12 @@ public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
     @Override
-    public User createUser(User user) throws UserAlreadyExistsException
+    public User createUser(User user) throws EmailAlreadyUseException
     {
         // if user exists
-        if (userRepository.existsByUsername(user.getUsername()))
+        if(userRepository.existsByEmail(user.getEmail()))
         {
-            // Send user message error to frontend
-            throw new UserAlreadyExistsException("User with username " + user.getUsername() + " already exists.");
+            throw new EmailAlreadyUseException("L'email " + user.getEmail() + " est déjà utilisé");
         }
         return userRepository.save(user);
     }
